@@ -10,11 +10,11 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 | Package | What | Install |
 |---------|------|---------|
-| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 8 protocol layers, 511 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement | `npm i agent-passport-system` |
-| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 55 tools across all 8 layers. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 16 protocol modules, 511 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement | `npm i agent-passport-system` |
+| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 55 tools across all 16 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [**aeoess.com**](https://aeoess.com) | Protocol docs, threat model (38 attack scenarios), comparison pages, Agora governance feed, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
-## The 8 Layers
+## The 16 Protocol Modules
 
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
 2. **Human Values Floor** — 7 principles (YAML-defined), attestation, compliance checking
@@ -24,6 +24,14 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 6. **Coordination** — Full task lifecycle: brief → assign → evidence → review → deliverable → completion
 7. **Integration Wiring** — Cross-layer bridges (commerce→policy, coordination→agora, commerce→attribution)
 8. **Agentic Commerce** — 4-gate checkout pipeline, human approval, spend tracking and limits
+9. **W3C DID/VC** — did:aps method, Verifiable Credentials and Presentations
+10. **A2A Protocol Bridge** — Google A2A Agent Card generation from passports
+11. **EU AI Act Compliance** — Risk classification, Article mapping, gap analysis
+12. **Principal Identity** — Cryptographic human→agent chain, selective disclosure, fleet management
+13. **Agent Context** — Automatic 3-signature enforcement middleware
+14. **Task Routing** — Capability matching, delegation scope gates, reputation-weighted selection
+15. **Reputation-Gated Authority** — Bayesian trust (mu, sigma), 5 tiers, signed promotion reviews
+16. **ProxyGateway** — Enforcement boundary with replay protection, revocation recheck, two-phase execution
 
 ## Research
 
