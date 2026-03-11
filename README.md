@@ -10,8 +10,8 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 | Package | What | Install |
 |---------|------|---------|
-| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 16 protocol modules, 511 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement | `npm i agent-passport-system` |
-| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 55 tools across all 16 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 17 protocol modules, 511 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, Intent Network (agent-mediated matching) | `npm i agent-passport-system` |
+| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 55 tools across all 17 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [**aeoess.com**](https://aeoess.com) | Protocol docs, threat model (38 attack scenarios), comparison pages, Agora governance feed, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The 16 Protocol Modules
@@ -32,6 +32,7 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 14. **Task Routing** — Capability matching, delegation scope gates, reputation-weighted selection
 15. **Reputation-Gated Authority** — Bayesian trust (mu, sigma), 5 tiers, signed promotion reviews
 16. **ProxyGateway** — Enforcement boundary with replay protection, revocation recheck, two-phase execution
+17. **Intent Network** — Agent-mediated matching: IntentCards, relevance scoring, intro protocol, digests. Hosted API at api.aeoess.com
 
 ## Research
 
