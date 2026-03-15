@@ -10,11 +10,11 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 | Package | What | Install |
 |---------|------|---------|
-| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 17 protocol modules, 511 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, Intent Network (agent-mediated matching) | `npm i agent-passport-system` |
-| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 55 tools across all 17 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 17 protocol modules, 534 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, Intent Network (agent-mediated matching) | `npm i agent-passport-system` |
+| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 61 tools across all 17 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [**aeoess.com**](https://aeoess.com) | Protocol docs, threat model (38 attack scenarios), comparison pages, Agora governance feed, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
-## The 16 Protocol Modules
+## The 17 Protocol Modules
 
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
 2. **Human Values Floor** — 7 principles (YAML-defined), attestation, compliance checking
