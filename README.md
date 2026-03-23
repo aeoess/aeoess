@@ -10,29 +10,34 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 | Package | What | Install |
 |---------|------|---------|
-| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 17 protocol modules, 534 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, Intent Network (agent-mediated matching) | `npm i agent-passport-system` |
-| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 61 tools across all 17 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
-| [**aeoess.com**](https://aeoess.com) | Protocol docs, threat model (38 attack scenarios), comparison pages, Agora governance feed, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
+| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 37 core + 32 v2 constitutional modules, 1090 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, Intent Network | `npm i agent-passport-system` |
+| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 72 tools across all modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [**aeoess.com**](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance communication, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
-## The 17 Protocol Modules
+## The Protocol
+
+**37 core modules + 32 v2 constitutional modules. 1090 tests. Zero heavy dependencies. Running code. MCP server included.**
 
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
-2. **Human Values Floor** — 7 principles (YAML-defined), attestation, compliance checking
-3. **Beneficiary Attribution** — Merkle proofs linking every action to a human beneficiary
-4. **Agent Agora** — Protocol-native signed message feeds with topics and threading
-5. **Intent Architecture** — Roles, deliberation, 3-signature policy chain (intent → evaluation → receipt)
+2. **Human Values Floor** — 8 principles, graduated enforcement (inline/audit/warn)
+3. **Beneficiary Attribution** — Merkle proofs, contribution tracking through delegation chains
+4. **Signed Communication (Agora)** — Per-instance signed message protocol with topics and threading
+5. **Intent Architecture** — 3-signature policy chain (intent → evaluation → receipt)
 6. **Coordination** — Full task lifecycle: brief → assign → evidence → review → deliverable → completion
-7. **Integration Wiring** — Cross-layer bridges (commerce→policy, coordination→agora, commerce→attribution)
-8. **Agentic Commerce** — 4-gate checkout pipeline, human approval, spend tracking and limits
-9. **W3C DID/VC** — did:aps method, Verifiable Credentials and Presentations
-10. **A2A Protocol Bridge** — Google A2A Agent Card generation from passports
-11. **EU AI Act Compliance** — Risk classification, Article mapping, gap analysis
-12. **Principal Identity** — Cryptographic human→agent chain, selective disclosure, fleet management
-13. **Agent Context** — Automatic 3-signature enforcement middleware
-14. **Task Routing** — Capability matching, delegation scope gates, reputation-weighted selection
-15. **Reputation-Gated Authority** — Bayesian trust (mu, sigma), 5 tiers, signed promotion reviews
-16. **ProxyGateway** — Enforcement boundary with replay protection, revocation recheck, two-phase execution
-17. **Intent Network** — Agent-mediated matching: IntentCards, relevance scoring, intro protocol, digests. Hosted API at api.aeoess.com
+7. **Integration Wiring** — Cross-layer bridges (commerce→policy, coordination→agora)
+8. **Agentic Commerce** — 4-gate checkout pipeline, human approval, spend tracking
+
+Plus extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow, W3C DID/VC, A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, E2E Encrypted Messaging, Obligations, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Bounded Escalation, Oracle Witness Diversity, Policy Conflict Detection, Data Source Registration, Decision Semantics.
+
+**V2 Constitutional Framework (32 modules):** Approval fatigue detection, effect enforcement, semantic drift, authority laundering audit, emergence detection, separation of powers, constitutional amendment, circuit breakers, affected-party standing, root authority transition, epistemic isolation, blind evaluation, cascade correlation, and more.
+
+## Core vs Ecosystem
+
+**Core protocol (every deployment):** Agent identity (Ed25519), delegation chains, cascade revocation, Values Floor, 3-signature policy chain, ProxyGateway enforcement.
+
+**Extended modules (pick what you need):** Coordination, commerce, DID/VC, EU AI Act, E2E encrypted messaging, task routing, reputation-gated authority, all 32 v2 constitutional modules.
+
+**Ecosystem services (fully opt-in):** Intent Network and Mingle run on public infrastructure at api.aeoess.com. No core protocol functionality depends on them.
 
 ## Research
 
@@ -42,7 +47,7 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 ## Links
 
 - 🌐 [aeoess.com](https://aeoess.com) — project home
-- 📖 [Protocol deep-dive](https://aeoess.com/passport.html) — layers, tests, MCP tools, code examples
-- 🛡️ [Threat model](https://aeoess.com/aivss.html) — 38 attack scenarios mapped to test files
+- 🔬 [Protocol deep-dive](https://aeoess.com/passport.html) — layers, tests, MCP tools, code examples
+- 🛡 [Threat model](https://aeoess.com/threat-model.html) — 50 adversarial scenarios mapped to test files
 - 🤖 [LLM endpoint](https://aeoess.com/llms-full.txt) — machine-readable full protocol reference
 - 📧 tima@aeoess.com
