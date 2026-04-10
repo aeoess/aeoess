@@ -10,13 +10,13 @@ The **Agent Passport System** answers this with cryptographic protocols, not pro
 
 | Package | What | Install |
 |---------|------|---------|
-| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 37 core + 32 v2 constitutional modules, 1090 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, Intent Network | `npm i agent-passport-system` |
-| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 72 tools across all modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
+| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 71 core + 32 v2 constitutional modules, 2,552 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, Intent Network | `npm i agent-passport-system` |
+| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 132 tools across all 103 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
 | [**aeoess.com**](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance communication, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
 
 ## The Protocol
 
-**37 core modules + 32 v2 constitutional modules. 1090 tests. Zero heavy dependencies. Running code. MCP server included.**
+**71 core modules + 32 v2 constitutional modules. 2,552 tests. Zero heavy dependencies. Running code. MCP server included.**
 
 1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
 2. **Human Values Floor** — 8 principles, graduated enforcement (inline/audit/warn)
@@ -41,8 +41,12 @@ Plus extended modules: Principal Identity, Reputation-Gated Authority (Bayesian 
 
 ## Research
 
-📄 [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779) — peer-reviewed protocol specification published on Zenodo
-📄 [Monotonic Narrowing for Agent Authority](https://doi.org/10.5281/zenodo.18932404) — formal invariants and adversarial testing
+📄 [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779) — protocol specification
+📄 [Monotonic Narrowing](https://doi.org/10.5281/zenodo.18932404) — formal invariants
+📄 [Faceted Authority Attenuation](https://doi.org/10.5281/zenodo.19260073) — product lattice model
+📄 [Behavioral Derivation Rights](https://doi.org/10.5281/zenodo.19365841) — observation governance
+📄 [Physics-Enforced Delegation](https://doi.org/10.5281/zenodo.19478584) — quantum governance
+📄 IETF Internet-Draft: draft-pidlisnyi-aps-00
 
 ## Links
 
