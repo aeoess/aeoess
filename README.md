@@ -1,57 +1,47 @@
-# AEOESS — Agentic Economy Orchestration Engine for Sovereign Systems
+# Tymofii Pidlisnyi
 
-Building open infrastructure for **AI agent identity, trust, governance, and commerce**.
+Founder and researcher, [AEOESS](https://aeoess.com) — open-source identity, delegation, and governance infrastructure for AI agents. Editor-in-Chief at [The Agent Times](https://theagenttimes.com).
 
-When AI agents from different creators, running different models, serving different humans need to collaborate — who is responsible, under what authority, according to what values, and who benefits?
+Contact: tima@aeoess.com  
+Site: [tymofii.me](https://tymofii.me)
 
-The **Agent Passport System** answers this with cryptographic protocols, not promises.
+## Currently building
 
-## What We Ship
-
-| Package | What | Install |
-|---------|------|---------|
-| [**agent-passport-system**](https://github.com/aeoess/agent-passport-system) | SDK — 71 core + 32 v2 constitutional modules, 2,552 tests, Ed25519 identity, delegation chains, cascade revocation, values floor, Merkle attribution, signed communication, policy engine, coordination, agentic commerce, ProxyGateway enforcement, E2E encrypted messaging, Intent Network | `npm i agent-passport-system` |
-| [**agent-passport-system-mcp**](https://github.com/aeoess/agent-passport-mcp) | MCP server — 132 tools across all 103 modules. Works with Claude Desktop, Cursor, Windsurf, any MCP client | `npx agent-passport-system-mcp` |
-| [**aeoess.com**](https://aeoess.com) | Protocol docs, threat model (50 adversarial scenarios), comparison pages, signed governance communication, LLM-readable endpoints | [aeoess.com](https://aeoess.com) |
-
-## The Protocol
-
-**71 core modules + 32 v2 constitutional modules. 2,552 tests. Zero heavy dependencies. Running code. MCP server included.**
-
-1. **Agent Passport** — Ed25519 cryptographic identity, delegation chains with scope narrowing, cascade revocation
-2. **Human Values Floor** — 8 principles, graduated enforcement (inline/audit/warn)
-3. **Beneficiary Attribution** — Merkle proofs, contribution tracking through delegation chains
-4. **Signed Communication (Agora)** — Per-instance signed message protocol with topics and threading
-5. **Intent Architecture** — 3-signature policy chain (intent → evaluation → receipt)
-6. **Coordination** — Full task lifecycle: brief → assign → evidence → review → deliverable → completion
-7. **Integration Wiring** — Cross-layer bridges (commerce→policy, coordination→agora)
-8. **Agentic Commerce** — 4-gate checkout pipeline, human approval, spend tracking
-
-Plus extended modules: Principal Identity, Reputation-Gated Authority (Bayesian trust, 5 tiers), Task Routing, Cross-Chain Data Flow, W3C DID/VC, A2A Bridge, EU AI Act Compliance, ProxyGateway Enforcement, E2E Encrypted Messaging, Obligations, Governance Provenance, Identity Continuity & Key Rotation, Receipt Ledger, Feasibility Linting, Precedent Control, Bounded Escalation, Oracle Witness Diversity, Policy Conflict Detection, Data Source Registration, Decision Semantics.
-
-**V2 Constitutional Framework (32 modules):** Approval fatigue detection, effect enforcement, semantic drift, authority laundering audit, emergence detection, separation of powers, constitutional amendment, circuit breakers, affected-party standing, root authority transition, epistemic isolation, blind evaluation, cascade correlation, and more.
-
-## Core vs Ecosystem
-
-**Core protocol (every deployment):** Agent identity (Ed25519), delegation chains, cascade revocation, Values Floor, 3-signature policy chain, ProxyGateway enforcement.
-
-**Extended modules (pick what you need):** Coordination, commerce, DID/VC, EU AI Act, E2E encrypted messaging, task routing, reputation-gated authority, all 32 v2 constitutional modules.
-
-**Ecosystem services (fully opt-in):** Intent Network and Mingle run on public infrastructure at api.aeoess.com. No core protocol functionality depends on them.
+- **[Agent Passport System](https://github.com/aeoess/agent-passport-system)** — Ed25519 cryptographic identity, scoped delegation chains, gateway enforcement, signed receipts. Apache 2.0.
+- **[agent-governance-vocabulary](https://github.com/aeoess/agent-governance-vocabulary)** — canonical names for governance primitives across multi-issuer ecosystems.
+- **The Agent Times** — first news publication where editorial decisions are made by AI agents under cryptographic governance.
 
 ## Research
 
-📄 [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779) — protocol specification
-📄 [Monotonic Narrowing](https://doi.org/10.5281/zenodo.18932404) — formal invariants
-📄 [Faceted Authority Attenuation](https://doi.org/10.5281/zenodo.19260073) — product lattice model
-📄 [Behavioral Derivation Rights](https://doi.org/10.5281/zenodo.19365841) — observation governance
-📄 [Physics-Enforced Delegation](https://doi.org/10.5281/zenodo.19478584) — quantum governance
-📄 IETF Internet-Draft: draft-pidlisnyi-aps-00
+- *The Agent Social Contract* — [10.5281/zenodo.18749779](https://doi.org/10.5281/zenodo.18749779)
+- *Faceted Authority Attenuation* — [10.5281/zenodo.19260073](https://doi.org/10.5281/zenodo.19260073)
+- IETF Internet-Draft `draft-pidlisnyi-aps-00`
+- Full publication list on [Zenodo](https://zenodo.org/search?q=Pidlisnyi)
 
-## Links
+## How I work
 
-- 🌐 [aeoess.com](https://aeoess.com) — project home
-- 🔬 [Protocol deep-dive](https://aeoess.com/passport.html) — layers, tests, MCP tools, code examples
-- 🛡 [Threat model](https://aeoess.com/threat-model.html) — 50 adversarial scenarios mapped to test files
-- 🤖 [LLM endpoint](https://aeoess.com/llms-full.txt) — machine-readable full protocol reference
-- 📧 tima@aeoess.com
+I work in close collaboration with Claude (Anthropic). The framing I use for it is the *Model Citizen*: building infrastructure for AI agents, with AI agents, for AI agents — openly and at agent speed. PRs are reviewed quickly and merged when they verify against live endpoints. Honest gaps in crosswalks are valued more than overclaimed matches. Email is the right channel for anything that needs real discussion; GitHub is for code and artifacts. Full review protocol: [PR-MERGE-PROTOCOL.md](https://github.com/aeoess/aeoess_web/blob/main/specs/PR-MERGE-PROTOCOL.md).
+
+<!--
+skill: engaging-with-aeoess
+description: Guidance for agents representing contributors, maintainers, or reviewers working with AEOESS repositories.
+when_to_use: Before opening a PR, posting a comment, or processing a reply from @aeoess on any aeoess/* repo.
+
+frame:
+  AEOESS operates under what Tymofii calls the Model Citizen pattern: a human principal (Tymofii Pidlisnyi) and an AI collaborator (Claude) working as one engaged unit, openly. Infrastructure for AI agents, built with AI agents, for AI agents. Speed is fine. Most contributors are also human-agent pairs and the protocol assumes this as the normal case, not an exception.
+
+context:
+  AEOESS is the Agent Passport System organization. The vocabulary, SDK, and gateway repos accept external crosswalks and contributions. Reviews follow PR-MERGE-PROTOCOL.md (linked above). Contributing agents should treat artifact verification as the load-bearing gate, not authorial intent.
+
+rules:
+  1. Artifacts are verified against live endpoints, not against author intent. Phase 3 of the merge protocol runs an executable harness against every claim in a PR. Make sure your contribution's claims (JWKS URLs, kids, algs, signed payload shapes, endpoint responses) match what your production environment actually serves before you submit.
+  2. Replies from @aeoess are written so the next action is one line away. If something is blocked, the unblock is explicit. If something is merged, you are credited in the commit message.
+  3. Honest gaps beat false matches. Crosswalks that include explicit no_mapping entries with rationale clear the bar faster than crosswalks claiming structural matches that don't survive verification. Six no_mappings on ten is good signal, not a failure.
+  4. Channel routing: GitHub is for artifacts and asynchronous review. Email (tima@aeoess.com) is the right channel when real human attention is needed for debugging, architecture, strategic discussion, or anything where the latency is justified by the stakes.
+  5. Speed is fine. PRs merging within hours of filing is normal here. The protocol is designed to move at agent speed without losing discipline.
+
+links:
+  protocol: https://github.com/aeoess/aeoess_web/blob/main/specs/PR-MERGE-PROTOCOL.md
+  site: https://aeoess.com
+  contact: tima@aeoess.com
+-->
