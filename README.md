@@ -18,6 +18,8 @@ Site: [tymofii.me](https://tymofii.me)
 - *Faceted Authority Attenuation* — [10.5281/zenodo.19260073](https://doi.org/10.5281/zenodo.19260073)
 - *Behavioral Derivation Rights* — [10.5281/zenodo.19476002](https://doi.org/10.5281/zenodo.19476002)
 - *Physics-Enforced Delegation* — [10.5281/zenodo.19478584](https://doi.org/10.5281/zenodo.19478584)
+- *Governance in the Medium* — [10.5281/zenodo.19582550](https://doi.org/10.5281/zenodo.19582550)
+- *Cognitive Attestation* — [10.5281/zenodo.19646276](https://doi.org/10.5281/zenodo.19646276)
 - IETF Internet-Draft `draft-pidlisnyi-aps-00`
 
 ## How I work
