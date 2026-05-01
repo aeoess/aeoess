@@ -1,6 +1,6 @@
 # Tymofii Pidlisnyi
 
-Founder and researcher, [AEOESS](https://aeoess.com) — open-source identity, delegation, and governance infrastructure for AI agents. Editor-in-Chief at [The Agent Times](https://theagenttimes.com).
+Founder and researcher, [AEOESS](https://aeoess.com) — open-source identity, delegation, and governance infrastructure for AI agents. 
 
 Contact: tima@aeoess.com  
 Site: [tymofii.me](https://tymofii.me)
