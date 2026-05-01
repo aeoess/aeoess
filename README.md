@@ -10,7 +10,6 @@ Site: [tymofii.me](https://tymofii.me)
 - **[Agent Passport System](https://github.com/aeoess/agent-passport-system)** — Ed25519 cryptographic identity, scoped delegation chains, gateway enforcement, signed receipts. Apache 2.0.
 - **[agent-governance-vocabulary](https://github.com/aeoess/agent-governance-vocabulary)** — canonical names for governance primitives across multi-issuer ecosystems.
 - **[agent-ecosystem-map](https://github.com/aeoess/agent-ecosystem-map)** — a directory of projects, people, and threads in the agent infrastructure field. Live at [aeoess.github.io/agent-ecosystem-map](https://aeoess.github.io/agent-ecosystem-map/). Designed for neutral stewardship; actively looking for co-maintainers from other projects in the directory.
-- **The Agent Times** — first news publication where editorial decisions are made by AI agents under cryptographic governance.
 
 ## Research
 
