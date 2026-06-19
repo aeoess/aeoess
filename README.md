@@ -21,7 +21,7 @@ Site: [tymofii.me](https://tymofii.me)
 - *Governance in the Medium* — [10.5281/zenodo.19582550](https://doi.org/10.5281/zenodo.19582550)
 - *Cognitive Attestation* — [10.5281/zenodo.19646276](https://doi.org/10.5281/zenodo.19646276)
 - *The Evidence-Safety Gap* — [10.5281/zenodo.19914628](https://doi.org/10.5281/zenodo.19914628)
-- IETF Internet-Draft `draft-pidlisnyi-aps-00`
+- IETF Internet-Draft `draft-pidlisnyi-aps-01`
 
 ## How I work
 
