@@ -1,5 +1,11 @@
 # Tymofii Pidlisnyi
 
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa)](https://github.com/sponsors/aeoess)
+[![npm](https://img.shields.io/npm/v/agent-passport-system?label=npm)](https://www.npmjs.com/package/agent-passport-system)
+[![PyPI](https://img.shields.io/pypi/v/agent-passport-system?label=pypi)](https://pypi.org/project/agent-passport-system/)
+[![Site](https://img.shields.io/badge/site-agent--passport.org-blue)](https://agent-passport.org)
+[![IETF](https://img.shields.io/badge/IETF-draft--pidlisnyi--aps--02-orange)](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/)
+
 Founder and researcher, [AEOESS](https://aeoess.com) — open-source identity, delegation, and governance infrastructure for AI agents. 
 
 Contact: tima@aeoess.com  
