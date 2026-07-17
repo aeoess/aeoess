@@ -13,9 +13,9 @@ Site: [tymofii.me](https://tymofii.me)
 
 ## Roadmap
 
-Everything ships in the open. The live plan, dated and statused, each item linked to the work it produced: **[agent-passport.org/roadmap.html](https://agent-passport.org/roadmap.html)**
+Everything ships in the open. The live plan, dated and statused, each item linked to the work it produced: 
+**[agent-passport.org/roadmap.html](https://agent-passport.org/roadmap.html)**
 
-I build this with Claude, GPT, Grok, and Gemini working together every day: independent review legs and hostile cross-checks before anything ships.
 
 ## Currently building
 
