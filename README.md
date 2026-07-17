@@ -11,6 +11,12 @@ Founder and researcher, [Agent Passport System](https://agent-passport.org) — 
 Contact: tima@aeoess.com  
 Site: [tymofii.me](https://tymofii.me)
 
+## Roadmap
+
+Everything ships in the open. The live plan, dated and statused, each item linked to the work it produced: **[agent-passport.org/roadmap.html](https://agent-passport.org/roadmap.html)**
+
+I build this with Claude, GPT, Grok, and Gemini working together every day: independent review legs and hostile cross-checks before anything ships.
+
 ## Currently building
 
 - **[Agent Passport System](https://github.com/aeoess/agent-passport-system)** — Ed25519 cryptographic identity, scoped delegation chains, gateway enforcement, signed receipts, Wave 1 accountability primitives (action, authority-boundary, custody, contestability, bundle). Apache 2.0.
