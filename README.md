@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/agent-passport-system?label=npm)](https://www.npmjs.com/package/agent-passport-system)
 [![PyPI](https://img.shields.io/pypi/v/agent-passport-system?label=pypi)](https://pypi.org/project/agent-passport-system/)
 [![Site](https://img.shields.io/badge/site-agent--passport.org-blue)](https://agent-passport.org)
-[![IETF](https://img.shields.io/badge/IETF-draft--pidlisnyi--aps--02-orange)](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/)
+[![IETF](https://img.shields.io/badge/IETF-draft--pidlisnyi--aps--03-orange)](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/)
 
 Founder and researcher, [Agent Passport System](https://agent-passport.org) — an open-source governance protocol for AI agent identity, scoped authority, policy enforcement, and verifiable cryptographic receipts.
 
@@ -34,7 +34,7 @@ Everything ships in the open. The live plan, dated and statused, each item linke
 - *Cognitive Attestation* — [10.5281/zenodo.19646276](https://doi.org/10.5281/zenodo.19646276)
 - *The Evidence-Safety Gap* — [10.5281/zenodo.19914628](https://doi.org/10.5281/zenodo.19914628)
 - *Plausibly Wrong* — [10.5281/zenodo.21208555](https://doi.org/10.5281/zenodo.21208555)
-- IETF Internet-Draft `draft-pidlisnyi-aps-02`
+- IETF Internet-Draft `draft-pidlisnyi-aps-03`
 
 ## How I work
 
