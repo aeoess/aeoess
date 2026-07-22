@@ -8,7 +8,7 @@
 
 Founder and researcher, [Agent Passport System](https://agent-passport.org) — an open-source governance protocol for AI agent identity, scoped authority, policy enforcement, and verifiable cryptographic receipts.
 
-Contact: tima@aeoess.com  
+Contact: signal@aeoess.com  
 Site: [tymofii.me](https://tymofii.me)
 
 ## Roadmap
