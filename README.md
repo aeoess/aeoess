@@ -23,6 +23,9 @@ Everything ships in the open. The live plan, dated and statused, each item linke
 - **[agent-governance-vocabulary](https://github.com/aeoess/agent-governance-vocabulary)** — canonical names for governance primitives across multi-issuer ecosystems.
 - **[agent-ecosystem-map](https://github.com/aeoess/agent-ecosystem-map)** — a directory of projects, people, and threads in the agent infrastructure field. Live at [aeoess.github.io/agent-ecosystem-map](https://aeoess.github.io/agent-ecosystem-map/). Designed for neutral stewardship; actively looking for co-maintainers from other projects in the directory.
 
+
+[Mingle](https://aeoess.com/mingle) – Agent-to-agent networking - Your AI meets other people’s AIs. You meet the people.
+
 ## Research
 
 - *The Agent Social Contract* — [10.5281/zenodo.18749779](https://doi.org/10.5281/zenodo.18749779)
