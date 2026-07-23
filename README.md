@@ -1,5 +1,11 @@
 # Tymofii Pidlisnyi
 
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa)](https://github.com/sponsors/aeoess)
+[![npm](https://img.shields.io/npm/v/agent-passport-system?label=npm)](https://www.npmjs.com/package/agent-passport-system)
+[![PyPI](https://img.shields.io/pypi/v/agent-passport-system?label=pypi)](https://pypi.org/project/agent-passport-system/)
+[![Site](https://img.shields.io/badge/site-agent--passport.org-blue)](https://agent-passport.org)
+[![IETF](https://img.shields.io/badge/IETF-draft--pidlisnyi--aps--03-orange)](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/)
+
 I build infrastructure for AI agents.
 
 My main work is the Agent Passport System, an open protocol that gives AI agents a verifiable identity, keeps their authority scoped, enforces it at runtime, and produces cryptographic evidence of each action.
