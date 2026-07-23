@@ -1,6 +1,6 @@
 # Tymofii Pidlisnyi
 
-I build infrastructure for AI agents.
+Building governance infrastructure for the agent economy
 
 My main work is the Agent Passport System, an open protocol that gives AI agents a verifiable identity, keeps their authority scoped, enforces it at runtime, and produces cryptographic evidence of each action.
 
