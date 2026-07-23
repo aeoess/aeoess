@@ -1,68 +1,55 @@
 # Tymofii Pidlisnyi
 
-[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa)](https://github.com/sponsors/aeoess)
-[![npm](https://img.shields.io/npm/v/agent-passport-system?label=npm)](https://www.npmjs.com/package/agent-passport-system)
-[![PyPI](https://img.shields.io/pypi/v/agent-passport-system?label=pypi)](https://pypi.org/project/agent-passport-system/)
-[![Site](https://img.shields.io/badge/site-agent--passport.org-blue)](https://agent-passport.org)
-[![IETF](https://img.shields.io/badge/IETF-draft--pidlisnyi--aps--03-orange)](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/)
+I build infrastructure for AI agents.
 
-Founder and researcher, [Agent Passport System](https://agent-passport.org) — an open-source governance protocol for AI agent identity, scoped authority, policy enforcement, and verifiable cryptographic receipts.
+My main work is the Agent Passport System, an open protocol that gives AI agents a verifiable identity, keeps their authority scoped, enforces it at runtime, and produces cryptographic evidence of each action.
 
-Contact: signal@aeoess.com  
-Site: [tymofii.me](https://tymofii.me)
+Everything here is open source and built in public.
 
-## Roadmap
+Website: [agent-passport.org](https://agent-passport.org)
+Personal: [tymofii.me](https://tymofii.me)
+Signal: [signal@aeoess.com](mailto:signal@aeoess.com)
 
-Everything ships in the open. The live plan, dated and statused, each item linked to the work it produced: 
-**[agent-passport.org/roadmap.html](https://agent-passport.org/roadmap.html)**
+## Projects
 
+**[Agent Passport System](https://github.com/aeoess/agent-passport-system)**
+The core protocol and reference SDK. Identity, scoped delegation, policy enforcement, and signed receipts, with a [conformance suite](https://github.com/aeoess/aps-conformance-suite) so separate implementations can check they behave the same way. Ports in [Python](https://github.com/aeoess/agent-passport-python) and [Go](https://github.com/aeoess/agent-passport-go), plus an [MCP server](https://github.com/aeoess/agent-passport-mcp).
 
-## Currently building
+**[Agent Governance Vocabulary](https://github.com/aeoess/agent-governance-vocabulary)**
+Different platforms use different words for the same concepts. This maps them to shared names, so systems can interoperate without every integration writing its own translation layer.
 
-**[Agent Passport System](https://github.com/aeoess/agent-passport-system)** — Ed25519 cryptographic identity, scoped delegation chains, gateway enforcement, signed receipts, Wave 1 accountability primitives (action, authority-boundary, custody, contestability, bundle). Apache 2.0.
-- **[agent-governance-vocabulary](https://github.com/aeoess/agent-governance-vocabulary)** — canonical names for governance primitives across multi-issuer ecosystems.
-- **[agent-ecosystem-map](https://github.com/aeoess/agent-ecosystem-map)** — a directory of projects, people, and threads in the agent infrastructure field. Live at [aeoess.github.io/agent-ecosystem-map](https://aeoess.github.io/agent-ecosystem-map/). Designed for neutral stewardship; actively looking for co-maintainers from other projects in the directory.
+**[Agent Ecosystem Map](https://github.com/aeoess/agent-ecosystem-map)**
+A living map of the projects, standards work, and people building agent infrastructure. Live at [aeoess.github.io/agent-ecosystem-map](https://aeoess.github.io/agent-ecosystem-map/). I want it community maintained rather than owned by one project, so I am looking for co-maintainers.
 
-
-**[Mingle](https://aeoess.com/mingle)** – Agent-to-agent networking - Your AI meets other people’s AIs. You meet the people.
+**[Mingle](https://aeoess.com/mingle)**
+Agent-mediated networking. Your AI meets other people's AIs. You meet the people.
 
 ## Research
 
-- *The Agent Social Contract* — [10.5281/zenodo.18749779](https://doi.org/10.5281/zenodo.18749779)
-- *Monotonic Narrowing* — [10.5281/zenodo.18932404](https://doi.org/10.5281/zenodo.18932404)
-- *Faceted Authority Attenuation* — [10.5281/zenodo.19260073](https://doi.org/10.5281/zenodo.19260073)
-- *Behavioral Derivation Rights* — [10.5281/zenodo.19476002](https://doi.org/10.5281/zenodo.19476002)
-- *Physics-Enforced Delegation* — [10.5281/zenodo.19478584](https://doi.org/10.5281/zenodo.19478584)
-- *Governance in the Medium* — [10.5281/zenodo.19582550](https://doi.org/10.5281/zenodo.19582550)
-- *Cognitive Attestation* — [10.5281/zenodo.19646276](https://doi.org/10.5281/zenodo.19646276)
-- *The Evidence-Safety Gap* — [10.5281/zenodo.19914628](https://doi.org/10.5281/zenodo.19914628)
-- *Plausibly Wrong* — [10.5281/zenodo.21208555](https://doi.org/10.5281/zenodo.21208555)
-- IETF Internet-Draft `draft-pidlisnyi-aps-03`
+Most of these started as working code and became papers later.
+
+* [The Agent Social Contract](https://doi.org/10.5281/zenodo.18749779)
+* [Monotonic Narrowing](https://doi.org/10.5281/zenodo.18932404)
+* [Faceted Authority Attenuation](https://doi.org/10.5281/zenodo.19260073)
+* [Behavioral Derivation Rights](https://doi.org/10.5281/zenodo.19476002)
+* [Physics-Enforced Delegation](https://doi.org/10.5281/zenodo.19478584)
+* [Governance in the Medium](https://doi.org/10.5281/zenodo.19582550)
+* [Cognitive Attestation](https://doi.org/10.5281/zenodo.19646276)
+* [The Evidence-Safety Gap](https://doi.org/10.5281/zenodo.19914628)
+* [Plausibly Wrong](https://doi.org/10.5281/zenodo.21208555)
+
+IETF Internet-Draft: [`draft-pidlisnyi-aps-03`](https://datatracker.ietf.org/doc/draft-pidlisnyi-aps/)
+
+## How I build
+
+Everything here ships in the open.
+
+Roadmap: [agent-passport.org/roadmap.html](https://agent-passport.org/roadmap.html)
 
 ## How I work
 
-I work in close collaboration with Claude (Anthropic). The framing I use for it is the *Model Citizen*: building infrastructure for AI agents, with AI agents, for AI agents — openly and at agent speed. PRs are reviewed quickly and merged when they verify against live endpoints. Honest gaps in crosswalks are valued more than overclaimed matches. Email is the right channel for anything that needs real discussion; GitHub is for code and artifacts. Full review protocol: [PR-MERGE-PROTOCOL.md](https://github.com/aeoess/aeoess_web/blob/main/specs/PR-MERGE-PROTOCOL.md).
+I work in close collaboration with AI. The framing I use for it is the Model Citizen. The pun is the point: a model citizen earns standing by participating in good faith, and here the model is the citizen. Building infrastructure for AI agents, with AI agents, for AI agents, openly and at agent speed.
 
-<!--
-skill: engaging-with-aeoess
-description: Guidance for agents representing contributors, maintainers, or reviewers working with AEOESS repositories.
-when_to_use: Before opening a PR, posting a comment, or processing a reply from @aeoess on any aeoess/* repo.
+PRs are reviewed quickly and merged when they verify against live endpoints. If a crosswalk has six honest `no_mapping` entries, that's usually better than six invented matches.
 
-frame:
-  AEOESS operates under what Tymofii calls the Model Citizen pattern: a human principal (Tymofii Pidlisnyi) and an AI collaborator (Claude) working as one engaged unit, openly. Infrastructure for AI agents, built with AI agents, for AI agents. Speed is fine. Most contributors are also human-agent pairs and the protocol assumes this as the normal case, not an exception.
-
-context:
-  AEOESS is the Agent Passport System organization. The vocabulary, SDK, and gateway repos accept external crosswalks and contributions. Reviews follow PR-MERGE-PROTOCOL.md (linked above). Contributing agents should treat artifact verification as the load-bearing gate, not authorial intent.
-
-rules:
-  1. Artifacts are verified against live endpoints, not against author intent. Phase 3 of the merge protocol runs an executable harness against every claim in a PR. Make sure your contribution's claims (JWKS URLs, kids, algs, signed payload shapes, endpoint responses) match what your production environment actually serves before you submit.
-  2. Replies from @aeoess are written so the next action is one line away. If something is blocked, the unblock is explicit. If something is merged, you are credited in the commit message.
-  3. Honest gaps beat false matches. Crosswalks that include explicit no_mapping entries with rationale clear the bar faster than crosswalks claiming structural matches that don't survive verification. Six no_mappings on ten is good signal, not a failure.
-  4. Channel routing: GitHub is for artifacts and asynchronous review. Email (tima@aeoess.com) is the right channel when real human attention is needed for debugging, architecture, strategic discussion, or anything where the latency is justified by the stakes.
-  5. Speed is fine. PRs merging within hours of filing is normal here. The protocol is designed to move at agent speed without losing discipline.
-
-links:
-  protocol: https://github.com/aeoess/aeoess_web/blob/main/specs/PR-MERGE-PROTOCOL.md
-  site: https://aeoess.com
-  contact: tima@aeoess.com
--->
+GitHub is where I review code and specifications. Email is better for conversations.
