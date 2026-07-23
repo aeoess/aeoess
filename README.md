@@ -51,7 +51,7 @@ Roadmap: [agent-passport.org/roadmap.html](https://agent-passport.org/roadmap.ht
 
 ## How I work
 
-I work in close collaboration with AI. The framing I use for it is the Model Citizen. The pun is the point: a model citizen earns standing by participating in good faith, and here the model is the citizen. Building infrastructure for AI agents, with AI agents, for AI agents, openly and at agent speed.
+I work in close collaboration with AI. The framing I use for it is the [Model Citizen](https://open.substack.com/pub/timafey/p/the-model-citizen?r=2ih725&utm_campaign=post-expanded-share&utm_medium=web). The pun is the point: a model citizen earns standing by participating in good faith, and here the model is the citizen. Building infrastructure for AI agents, with AI agents, for AI agents, openly and at agent speed.
 
 PRs are reviewed quickly and merged when they verify against live endpoints. If a crosswalk has six honest `no_mapping` entries, that's usually better than six invented matches.
 
