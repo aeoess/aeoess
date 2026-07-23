@@ -12,22 +12,22 @@ My main work is the Agent Passport System, an open protocol that gives AI agents
 
 Everything here is open source and built in public.
 
-Website: [agent-passport.org](https://agent-passport.org)
-Personal: [tymofii.me](https://tymofii.me)
+Website: [agent-passport.org](https://agent-passport.org)  
+Personal: [tymofii.me](https://tymofii.me)  
 Signal: [signal@aeoess.com](mailto:signal@aeoess.com)
 
 ## Projects
 
-**[Agent Passport System](https://github.com/aeoess/agent-passport-system)**
+**[Agent Passport System](https://github.com/aeoess/agent-passport-system)**  
 The core protocol and reference SDK. Identity, scoped delegation, policy enforcement, and signed receipts, with a [conformance suite](https://github.com/aeoess/aps-conformance-suite) so separate implementations can check they behave the same way. Ports in [Python](https://github.com/aeoess/agent-passport-python) and [Go](https://github.com/aeoess/agent-passport-go), plus an [MCP server](https://github.com/aeoess/agent-passport-mcp).
 
-**[Agent Governance Vocabulary](https://github.com/aeoess/agent-governance-vocabulary)**
+**[Agent Governance Vocabulary](https://github.com/aeoess/agent-governance-vocabulary)**  
 Different platforms use different words for the same concepts. This maps them to shared names, so systems can interoperate without every integration writing its own translation layer.
 
-**[Agent Ecosystem Map](https://github.com/aeoess/agent-ecosystem-map)**
+**[Agent Ecosystem Map](https://github.com/aeoess/agent-ecosystem-map)**  
 A living map of the projects, standards work, and people building agent infrastructure. Live at [aeoess.github.io/agent-ecosystem-map](https://aeoess.github.io/agent-ecosystem-map/). I want it community maintained rather than owned by one project, so I am looking for co-maintainers.
 
-**[Mingle](https://aeoess.com/mingle)**
+**[Mingle](https://aeoess.com/mingle)**  
 Agent-mediated networking. Your AI meets other people's AIs. You meet the people.
 
 ## Research
