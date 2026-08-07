@@ -16,13 +16,13 @@ Signal: [signal@aeoess.com](mailto:signal@aeoess.com)
 ## Projects
 
 **[Agent Passport System](https://github.com/aeoess/agent-passport-system)**  
-The core protocol and reference SDK. Identity, scoped delegation, policy enforcement, and signed receipts, with a [conformance suite](https://github.com/aeoess/aps-conformance-suite) so separate implementations can check they behave the same way. Ports in [Python](https://github.com/aeoess/agent-passport-python) and [Go](https://github.com/aeoess/agent-passport-go), plus an [MCP server](https://github.com/aeoess/agent-passport-mcp).
+The core protocol and reference SDK. Identity, scoped delegation, policy enforcement, and signed receipts. Ports in [Python](https://github.com/aeoess/agent-passport-python) and [Go](https://github.com/aeoess/agent-passport-go), plus an [MCP server](https://github.com/aeoess/agent-passport-mcp).
+
+**[Agent Authority Conformance](https://github.com/Agent-Authority-Conformance/aps-conformance-suite)**  
+An LF Decentralized Trust Lab for reproducible conformance testing of agent authority protocols. Versioned test vectors, negative cases, runners in three languages, and reproducible run reports. The initial corpus covers APS; the lab is separate from the protocol and does not issue product conformance verdicts.
 
 **[Agent Governance Vocabulary](https://github.com/aeoess/agent-governance-vocabulary)**  
 Different platforms use different words for the same concepts. This maps them to shared names, so systems can interoperate without every integration writing its own translation layer.
-
-**[Agent Ecosystem Map](https://github.com/aeoess/agent-ecosystem-map)**  
-A living map of the projects, standards work, and people building agent infrastructure. Live at [aeoess.github.io/agent-ecosystem-map](https://aeoess.github.io/agent-ecosystem-map/). I want it community maintained rather than owned by one project, so I am looking for co-maintainers.
 
 **[Mingle](https://aeoess.com/mingle)**  
 Agent-mediated networking. Your AI meets other people's AIs. You meet the people.
