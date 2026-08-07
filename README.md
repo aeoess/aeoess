@@ -10,6 +10,7 @@ My main work is the Agent Passport System, an open protocol that gives AI agents
 Everything here is open source and built in public.
 
 Website: [agent-passport.org](https://agent-passport.org)  
+Project: [æœss.com](https://æœss.com)  
 Personal: [tymofii.me](https://tymofii.me)  
 Signal: [signal@aeoess.com](mailto:signal@aeoess.com)
 
