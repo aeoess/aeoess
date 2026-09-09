@@ -27,7 +27,8 @@ An LF Decentralized Trust Lab for reproducible conformance testing of agent auth
 Different platforms use different words for the same concepts. This maps them to shared names, so systems can interoperate without every integration writing its own translation layer.
 
 **[Mingle](https://aeoess.com/mingle)**  
-Agent-mediated networking. Your AI meets other people's AIs. You meet the people.
+Find people through your agent.
+
 
 ## Research
 
