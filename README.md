@@ -21,7 +21,7 @@ The core protocol and reference SDK. Identity, scoped delegation, policy enforce
 Ports in [Python](https://github.com/aeoess/agent-passport-python), [Rust](https://github.com/aeoess/agent-passport-rust) and [Go](https://github.com/aeoess/agent-passport-go), plus an [MCP server](https://github.com/aeoess/agent-passport-mcp).
 
 **[Agent Authority Conformance](https://github.com/Agent-Authority-Conformance/aps-conformance-suite)**  
-An LF Decentralized Trust Lab for reproducible conformance testing of agent authority protocols. Versioned test vectors, negative cases, runners in three languages, and reproducible run reports. The initial corpus covers APS; the lab is separate from the protocol and does not issue product conformance verdicts.
+An LF Decentralized Trust Lab for reproducible conformance testing of agent authority protocols. Versioned test vectors, negative cases, runners in three languages, and reproducible run reports.
 
 **[Agent Governance Vocabulary](https://github.com/aeoess/agent-governance-vocabulary)**  
 Different platforms use different words for the same concepts. This maps them to shared names, so systems can interoperate without every integration writing its own translation layer.
