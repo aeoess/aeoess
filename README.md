@@ -3,4 +3,4 @@
 
 Building verifiable authority and action evidence for AI agents
 
-My main work is the **Agent Passport System**, an open protocol for delegated authority, pre-action enforcement, signed receipts, and attribution across systems. I also build the conformance work used to test those guarantees across independent implementations.
+My main work is the **Agent Passport System**, an open protocol for delegated authority, pre-action enforcement, signed receipts, and attribution across systems. I also work on the conformance suite used to test those guarantees across independent implementations.
