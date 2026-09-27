@@ -10,7 +10,7 @@ My main work is the **Agent Passport System (APS)**, an open protocol for delega
 
 **Attribution across systems:** Authority, decisions, and contributions remain traceable as work moves between systems.
 
-**I believe common infrastructure should be vendor-neutral by design and independently verifiable, so no captured or compromised system can define truth for everyone.**
+### I believe common infrastructure should be vendor-neutral by design and independently verifiable, so no captured or compromised system can define truth for everyone.
 
 I also work on the conformance suite used to test specified behavior across independent implementations.
 
