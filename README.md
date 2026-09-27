@@ -2,6 +2,7 @@
 
 My main work is the **Agent Passport System (APS)**, an open protocol for delegated authority, pre-action enforcement, signed receipts, and attribution across systems.
 
+æ
 
 <ins><strong>Delegated authority:</strong></ins> An agent receives bounded authority, and within a delegation chain that authority can only decrease.
 *If you authorize a $200 limit, your agent cannot raise it, and neither can an agent it delegates to.*
@@ -15,6 +16,7 @@ My main work is the **Agent Passport System (APS)**, an open protocol for delega
 <ins><strong>Attribution across systems:</strong></ins> Authority, decisions, and contributions remain traceable as work moves between systems.
 *Credit can follow the work, and harmful actions can be traced through the recorded chain.*
 
+ æ
 
 ### I believe common infrastructure should be vendor-neutral by design and independently verifiable, so no captured or compromised system can define truth for everyone.
 
