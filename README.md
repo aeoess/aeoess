@@ -18,8 +18,7 @@ My main work is the **Agent Passport System (APS)**, an open protocol for delega
 
  æ
 
-### I believe common infrastructure should be vendor-neutral by design and independently verifiable, 
-### so no captured or compromised system can define truth for everyone.
+### I believe common infrastructure should be vendor-neutral by design and independently verifiable, so no captured or compromised system can define truth for everyone.
 
 
 I maintain the [conformance suite](https://github.com/Agent-Authority-Conformance/aps-conformance-suite) that tests specified behavior across independent implementations, and the [governance vocabulary](https://github.com/aeoess/agent-governance-vocabulary) that gives different systems a common language for understanding one another.
