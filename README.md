@@ -4,11 +4,19 @@ My main work is the **Agent Passport System (APS)**, an open protocol for delega
 
 <ins><strong>Delegated authority:</strong></ins> An agent receives bounded authority, and within a delegation chain that authority can only decrease.
 
-<ins><strong>Pre-action enforcement:</strong></ins> A gateway checks signed authority and policy before admitting an action for execution.
+*If you authorize a $200 limit, your agent cannot raise it, and neither can an agent it delegates to.*
+
+<ins><strong>Pre-action enforcement:</strong></ins> Rules are enforced at the gateway before an action reaches the system that would carry it out.
+
+*Only actions within the authority you granted move forward. Everything else stops before execution.*
 
 <ins><strong>Signed receipts:</strong></ins> Cryptographic records make permit and deny decisions independently verifiable.
 
+*Every permit and denial leaves cryptographic evidence that auditors, investigators, or regulators can check later.*
+
 <ins><strong>Attribution across systems:</strong></ins> Authority, decisions, and contributions remain traceable as work moves between systems.
+
+*Credit can follow the work, and harmful actions can be traced through the recorded chain.*
 
 ### I believe common infrastructure should be vendor-neutral by design and independently verifiable, so no captured or compromised system can define truth for everyone.
 
