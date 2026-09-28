@@ -1,4 +1,4 @@
-# governance infrastructure for the agentic economy
+# I build governance infrastructure for the agentic economy.
 
 My main work is the **Agent Passport System (APS)**, an open protocol for delegated authority, pre-action enforcement, signed receipts, and attribution across systems.
 
