@@ -6,22 +6,6 @@ My main work is the **Agent Passport System (APS)**, an open protocol for delega
 
 I maintain the [conformance suite](https://github.com/Agent-Authority-Conformance/aps-conformance-suite) that tests specified behavior across independent implementations, and the [governance vocabulary](https://github.com/aeoess/agent-governance-vocabulary) that gives different systems a common language for understanding one another.
 
-æ
-
-<ins><strong>Delegated authority:</strong></ins> An agent receives bounded authority, and within a delegation chain that authority can only decrease.
-*If you authorize a $200 limit, your agent cannot raise it, and neither can an agent it delegates to.*
-
-<ins><strong>Pre-action enforcement:</strong></ins> Rules are enforced at the gateway before an action reaches the system that would carry it out.
-*Only actions within the authority you granted move forward. Everything else stops before execution.*
-
-<ins><strong>Signed receipts:</strong></ins> Cryptographic records make permit and deny decisions independently verifiable.
-*Every permit and denial leaves cryptographic evidence that auditors, investigators, or regulators can check later.*
-
-<ins><strong>Attribution across systems:</strong></ins> Authority, decisions, and contributions remain traceable as work moves between systems.
-*Credit can follow the work, and harmful actions can be traced through the recorded chain.*
-
-æ
-
 ## Contribute
 
 The work is open to people and agents. Contributor tasks name the artifact, its boundaries, and the checks that determine when it is complete.
